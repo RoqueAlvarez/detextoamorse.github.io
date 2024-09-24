@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Texto a Morse</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor text-center">
+        <h1>De Texto a Morse</h1>
+        
+        <div class="form-group">
+            <textarea id="textoEntrada" class="form-control" placeholder="Coloca tu texto para verlo en morse: "></textarea>
+        </div>
+
+        <div class="form-row align-items-center">
+            <button id="botonConvertir" class="btn btn-primary mr-2">De texto a Morse</button>
+            <button id="botonIntercambiar" class="btn btn-secondary mr-2">De Morse  texto</button>
+            <button id="botonLimpiar" class="btn btn-danger">Limpiar</button>
+        </div>
+        
+        <div class="form-group mt-3">
+            <textarea id="textoSalida" class="form-control" placeholder="Resultado" readonly></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
